@@ -11,9 +11,10 @@ public class ExArrayDuplicat {
             sirduplicat[i]=numar;
             //System.out.println("sirduplicat: " + sirduplicat[i]);
         }
-        for (int j = 0; j < sirduplicat.lenght; j++) {
-            int value = sirduplicat(j);
-            System.out.println("Element: " + value);
+        for(int i=0;i<sirduplicat.length;i++){
+            numar=sir[i];
+            sirduplicat[i]=numar;
+            System.out.println("sirduplicat: " + sirduplicat[i]);
         }
     }
 }
